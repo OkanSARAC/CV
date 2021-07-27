@@ -321,6 +321,7 @@ a:hover, a:active { text-decoration: none; color:#494235d0 }
     color: inherit; /* Inherit text color of parent element. */
     text-decoration: none; /* Remove underline. */
     /* Additional css `propery: value;` pairs here */
+    -webkit-tap-highlight-color: transparent;
   }
 
   [href^="mailto"] {
