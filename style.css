@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+set {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+page[size="A4"] {
+    background: #a8977a;
+    width: 21cm;
+    height: 29.7cm;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0cm 0cm 0.5cm rgba(0, 0, 0, 0.1);
+  }
+
+@media print {
+    body, page[size="A4"] {
+      margin: 0;
+      box-shadow: 0;
+    }
+  }
+
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 9vh
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+
+    height: 30vh
+}
+
+#NomPrenom {
+    color: #494235d0;
+    font-size: 20px;
+    margin: px 0px 0px 0px ;
+    font-family: 'Montserrat', sans-serif;
+    background: white;
+    text-align: left;
+    flex-direction: column;
+}
+
+#Prenom {
+    font-size: 40px;
+
+}
+
+#Nom {
+    font-weight:900;
+    font-size: 40px;
+}
+
+#contact {
+    color: white;
+    padding-left: 0px;
+    font-size: 15px;
+
+}
+
+.language_nav {
+    display: flex;
+    justify-content: center;
+    background: #83755cbe;
+    height: 2.5%;
+}
+
+.language_nav > a {
+    color:whitesmoke;
+    text-decoration: none;
+    padding: 3px 10px;
+}
+
+
+.language_nav > a:hover {
+    background-color: #685d4a88;
+
+}
+
+.language_nav > a:focus {
+    background-color: #36312788
+  }
+
+#en{
+    background: #36312788;
+
+}
+
+.row {
+    display: flex;
+    flex-direction:row;
+    height: 97.5%
+    
+
+}
+
+.side {
+    flex: 25%;
+    height: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+
+
+}
+
+.main {
+    flex: 75%;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden
+
+}
+
+#skills {
+    color: #332f26;
+    text-align: left;
+    font-size:18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#skillscontact {
+    color: #332f26;
+    text-align: left;
+    font-size:18px;
+    margin-top: 26px;
+    margin-bottom: 5px;
+}
+
+
+
+#skills5 {
+    color: #494235d0;
+    font-size:16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#langT {
+    color: #332f26;
+    text-align: left;
+    font-size:18px;
+  
+
+}
+
+#skills2 {
+    color: white;
+    text-align: left;
+    line-height: 20px;
+    margin-block-start: 0px;
+    font-weight:800;
+    font-size: 14px;
+    margin-bottom: 2px;
+
+}
+
+#lang {
+    color: white;
+    margin-block-start: 0px;
+    padding-left: 0px;
+    font-weight:800;
+    list-style-type: none;
+    font-size: 14px;
+
+}
+
+#langlist { 
+    display: inline;
+    line-height:20px
+}
+
+#langlist2 { 
+    display: inline;
+    line-height:20px;
+    font-weight: 400;
+}
+
+.langbox {
+    width: 50%;
+    float: left;
+}
+
+
+#skills3 {
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+ 
+
+}
+
+#skills4 {
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    margin-block-start: 1px;
+    padding-left: 12px;
+
+}
+
+#profile {
+    color: rgb(95, 95, 95);
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+
+#profilelist {
+    color: rgb(95, 95, 95);
+    font-size: 14px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 7px;
+}
+
+#profile1 {
+    color: #4e4739;
+    text-align: left;
+    font-weight:900;
+    font-size:20px;
+    height: 20px;
+    margin-top: 0px;
+}
+
+#exp {
+    color: #4e4739;
+    font-size: 20px;
+
+}
+
+#exp2 {
+    color: #5c5342d0 ;
+    font-size: 15px;
+
+}
+
+#exp3 {
+    color: #494235d0;
+    font-size: 14px;
+    padding-inline-start: 10px;
+}
+
+#exp4 {
+    color: #494235d0;
+    font-size: 14px;
+
+}
+
+.img1 {
+    margin-top: 15px;
+    border: 7px solid #494235d0;
+    border-radius: 50%;
+    background-clip: content-box;
+}
+
+#file {
+    -webkit-appearance: none;
+    width: 45%;
+    height: 6px;
+    margin-top: 8px;
+    float:right;
+    border:1px solid #70644fbe ;
+    color: white;
+    border-radius: 20px;
+
+}
+
+::-webkit-progress-bar {
+    background: #70644fbe;
+    border-radius: 20px
+}
+::-moz-progress-bar {
+    background: #70644fbe;
+    border-radius: 20px
+}
+
+::-webkit-progress-value {
+    background: white;
+    border-radius: 20px;
+
+}
+
+#liste {
+padding-left: 10px;
+}
+
+
+a:visited { text-decoration: none; color:#FFFFFF }
+a:focus { text-decoration: none; color:#ffffff }
+a:hover, a:active { text-decoration: none; color:#494235d0 }
+
+#exp4 a:visited { text-decoration: none; color:#494235d0 }
+#exp4 a:focus { text-decoration: none; color:#494235d0 }
+#exp4 a:hover, a:active { text-decoration: none; color:#a8977a }
+
+
+#exp2 a:visited { text-decoration: none; color:#5c5342d0 }
+#exp2 a:focus { text-decoration: none; color:#5c5342d0  }
+#exp2 a:hover, a:active { text-decoration: none; color:#a8977a }
+
+
+
+[href^="tel"] {
+    color: inherit; /* Inherit text color of parent element. */
+    text-decoration: none; /* Remove underline. */
+    /* Additional css `propery: value;` pairs here */
+  }
+
+  [href^="mailto"] {
+    color: inherit; /* Inherit text color of parent element. */
+    text-decoration: none; /* Remove underline. */
+    /* Additional css `propery: value;` pairs here */
+  }
