@@ -306,6 +306,12 @@ a:visited { text-decoration: none; color:#FFFFFF }
 a:focus { text-decoration: none; color:#ffffff }
 a:hover, a:active { text-decoration: none; color:#494235d0 }
 
+a[href^=tel] {
+text-decoration:inherit;
+color: inherit;
+}
+
+
 #exp4 a:visited { text-decoration: none; color:#494235d0 }
 #exp4 a:focus { text-decoration: none; color:#494235d0 }
 #exp4 a:hover, a:active { text-decoration: none; color:#a8977a }
