@@ -313,11 +313,10 @@ a:hover, a:active { text-decoration: none; color:#494235d0 }
 
 #exp2 a:visited { text-decoration: none; color:#5c5342d0 }
 #exp2 a:focus { text-decoration: none; color:#5c5342d0  }
-#exp2 a:hover, a:active { text-decoration: none; color:#a8977a }
+#exp2 a:hover { text-decoration: none; color:#a8977a }
+#exp2 a:active { text-decoration: none; color:#a8977a }
 
-:focus {
-    outline: none !important;
-}
+
 
 
 [href^="tel"] {
