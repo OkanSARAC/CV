@@ -64,6 +64,22 @@ page[size="A4"] {
     font-size: 40px;
 }
 
+#port {
+    color: #332f26;
+    text-align: left;
+    font-size:18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#portsites {
+    color: rgb(255, 255, 255);
+    padding-left: 0px;
+    font-size: 15px
+
+}
+
 #contact {
     color: white;
     padding-left: 0px;
