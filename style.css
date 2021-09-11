@@ -125,6 +125,21 @@ page[size="A4"] {
 
 }
 
+#port {
+    color: #332f26;
+    text-align: left;
+    font-size:18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#portsites {
+    color: rgb(255, 255, 255);
+    padding-left: 0px;
+    font-size: 15px
+
+}
+
 #skills {
     color: #332f26;
     text-align: left;
